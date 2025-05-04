@@ -47,7 +47,7 @@ function searchRecipes(reset = true) {
     return;
   }
 
-  fetch("https://tastemate-backend-jvnc.onrender.com/search", {
+  fetch("https://tastemate-o2wx.onrender.com/search", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
